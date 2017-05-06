@@ -45,7 +45,7 @@ void init() {
 }
 
 void send_register_info() {
-  sock->sendMessage(CONFIG->GetJudge_connect_string() + "\nBNU");
+  sock->sendMessage(CONFIG->GetJudge_connect_string() + "\nJNU");
 }
 
 void initSocket() {
